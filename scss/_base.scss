@@ -2,25 +2,25 @@
 
 body {
     background-color: $background-color;
-    box-sizing: border-box;
+    //box-sizing: border-box;
     color: $color;
     @include body-font-light;
     font-size: $base-font-size;
-    margin: 0 auto;
-    max-width: 600px;
-    padding: 0 10px;
-    width: 100%;
+    //margin: 0 auto;
+    //max-width: 600px;
+    //padding: 0 10px;
+    //width: 100%;
 }
 
-@media screen and (min-width: 800px) {
-    body {
-        color: pink;
-    }
-    .cafe h1, .food h1, .attractions h1,
-    .cafe h2, .food h2, .attractions h2 {
-        font-size: em(70px);
-    }   
-}
+// @media screen and (min-width: 800px) {
+//    body {
+//        color: pink;
+//    }
+//    .cafe h1, .food h1, .attractions h1,
+//    .cafe h2, .food h2, .attractions h2 {
+//        font-size: em(70px);
+//    }   
+//}
 
 img {
     max-width: 100%;
